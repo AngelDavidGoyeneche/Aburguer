@@ -1,0 +1,41 @@
+.order-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.order-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-modal.show {
+  display: flex;
+}
+
+.order-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 50%;
+  margin: 40px auto;
+}
+
+.order-modal-content h2 {
+  margin-top: 0;
+}
+
+.order-modal-content button[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
